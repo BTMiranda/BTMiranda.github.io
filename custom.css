@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    margin: 0px;
+    padding: 0px;
+}
+/* CSS Cabeçalho */
+#titulo{ /* CSS Do Titulo do Cabeçalho */
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+    color: white;
+}#header{ /* CSS do Div*/
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    height: 50px;
+}
+/* End Cabeçalho */
+
+/* Corpo */
+.subtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    margin: 10px 0px 10px 0px;
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+    margin: 0px;
+}
+/* END Corpo */
+
+/* Figuras */
+#ods7{
+    height: 170px;
+    padding: 20px 0px 0px 20px;
+    
+}
+.odss{
+    height: 140px;
+    padding: 20px 0px 15px 20px;
+    background-image: gray;
+}
+/* END Figuras */
