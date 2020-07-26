@@ -1,3 +1,13 @@
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    margin: 10px 0px 10px 0px;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 25px;
+    margin: 10px 0px 10px 0px;
+}
 body{
     margin: 0px;
     padding: 0px;
@@ -6,6 +16,7 @@ html{
     margin: 0px;
     padding: 0px;
 }
+
 /* CSS Cabeçalho */
 #titulo{ /* CSS Do Titulo do Cabeçalho */
     text-align: center;
@@ -21,27 +32,30 @@ html{
 /* End Cabeçalho */
 
 /* Corpo */
-.subtitle{
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 10px;
-    margin: 10px 0px 10px 0px;
-}
 .text{
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 5px;
-    margin: 0px;
+    margin-left: 25px;
+}
+.imgs{
+    height: 170px;
+}
+.imagens{
+    text-align: center;
 }
 /* END Corpo */
 
 /* Figuras */
-#ods7{
-    height: 170px;
-    padding: 20px 0px 0px 20px;
-    
+.divimg{
+    background-color: rgba(128, 128, 128, 0.247);
+    padding-bottom: 20px;
 }
-.odss{
-    height: 140px;
-    padding: 20px 0px 15px 20px;
-    background-image: gray;
+#ods7{
+    height: 200px;
+    margin: 20px 0px 0px 20px;   
+}
+.ods{
+    height: 155px;
+    margin: 20px 0px 20px 20px; 
+    filter: grayscale(100%);
 }
 /* END Figuras */
